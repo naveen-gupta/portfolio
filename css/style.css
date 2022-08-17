@@ -1430,4 +1430,12 @@ input[type="text"] {
   color: #fff;
 }
 
+.download {
+  padding: 1rem;
+  background-color: #fff;
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
