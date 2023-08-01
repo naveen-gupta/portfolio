@@ -1448,7 +1448,7 @@ input[type="text"] {
   font-size: 2rem;
   font-weight: 500;
   background: linear-gradient(100.78deg, #E723FD -9.7%, #4B1354 130.21%);
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 749px) {
     display: block;
     width: fit-content;
     margin: 6px auto 0px;
