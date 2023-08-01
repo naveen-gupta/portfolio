@@ -2,21 +2,19 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 9;
+  --hue-color: 245;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 68%, 42%);
-  --first-color-second: hsl(var(--hue-color), 60%, 42%);                        
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --first-color: #09071e;
+  --first-color-second: #09071e;                        
+  --first-color-alt: #09071e;
+  --first-color-lighter: #09071e;
+  --title-color: #09071e;
+  --text-color: #09071e;
+  --text-color-light: #09071e;
   --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --scroll-bar-color: #09071e;
+  --scroll-thumb-color: #09071e;
   /*========== Font and typography ==========*/
   --body-font: 'Lato', sans-serif;
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -51,8 +49,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #4d4d4d;
-  background: #fff;
+  color: #fff;
+  background-color: rgba(9, 7, 30, 0.9);
 }
 
 #page {
@@ -83,7 +81,7 @@ body {
 }
 
 a {
-  color: var(--first-color);
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -99,7 +97,7 @@ p {
 }
 
 .primary-color {
-  color: var(--first-color);
+  color: #fff;
 }
 
 .mar-r-05{
@@ -115,7 +113,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #fff;
   font-family: var(--body-font);
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -326,7 +324,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-features .feature-left p a {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 #fh5co-about,
@@ -362,7 +360,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: var(--first-color);
 }
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  color: #eb4808 !important;
 }
 
 .info {
@@ -389,13 +387,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .fh5co-social-icons {
@@ -415,7 +413,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: var(--first-color);
   padding-left: 10px;
   padding-right: 10px;
@@ -466,7 +464,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color: #eb4808;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -518,7 +516,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #e6e6e6;
+  background: #eb4808;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -640,7 +638,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: var(--text-color);
+  color: #fff;
 }
 
 .timeline-body > p,
@@ -652,7 +650,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .bullet-point {
     width: 1em;
     height: 1em;
-    border: 2px solid var(--first-color-alt);
+    border: 2px solid #eb4808;
     border-radius: 1em;
     margin-right: 0.3em;
 }
@@ -851,7 +849,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #fff;
+  color: #eb4808;
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
@@ -927,6 +925,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 0 0 8px 8px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-text {
@@ -937,7 +936,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   margin-bottom: 20px;
   font-size: 18px !important;
-  color: rgba(0, 0, 0, 0.3);
+  color: #000;
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
@@ -955,6 +954,11 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 14px;
   }
 }
+
+.blog-text p {
+  color: #000;
+}
+
 .fh5co-blog .blog-text .stuff li:first-child {
   margin-left: 0;
 }
@@ -962,7 +966,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: right;
 }
 .fh5co-blog .blog-text .stuff li:last-child a {
-  color: #000;
+  color: #fff;
 }
 .fh5co-blog .blog-text .stuff li:last-child i {
   padding-right: 0;
@@ -1074,7 +1078,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
-  color: #000;
+  color: #fff;
 }
 .contact-info li i {
   position: absolute;
@@ -1084,7 +1088,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .contact-info li a {
-  color: #000;
+  color: #fff;
 }
 
 .form-control {
@@ -1430,12 +1434,33 @@ input[type="text"] {
   color: #fff;
 }
 
+.designation {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .download {
   padding: 1rem;
-  background-color: #fff;
   height: 4rem;
   margin: 1rem;
   border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  background: linear-gradient(100.78deg, #E723FD -9.7%, #4B1354 130.21%);
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: fit-content;
+    margin: 6px auto 0px;
+  }
 }
 
+.website {
+  background: linear-gradient(100.78deg, #E723FD -9.7%, #4B1354 130.21%);
+  background-clip: text;
+}
+
+.orange {
+  color: #eb4808;
+}
 /*# sourceMappingURL=style.css.map */
